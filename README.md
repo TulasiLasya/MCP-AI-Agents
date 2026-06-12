@@ -40,7 +40,7 @@ User Prompt → MCP Host (Cursor) → MCP Integration Layer (Composio) → Exter
 **Proof:** This agent was used to publish a real LinkedIn post autonomously
 
 📸 **Output:**
-![LinkedIn Agent Output](outputs/linkedin-agent-output.png)
+![LinkedIn Agent Output](Outputs/linkedin-agent-output.png)
 
 ---
 
@@ -57,7 +57,7 @@ User Prompt → MCP Host (Cursor) → MCP Integration Layer (Composio) → Exter
 **Use case:** Automating professional outreach, follow-ups, internship applications
 
 📸 **Output:**
-![Email Agent Output](outputs/email-agent-output.png)
+![Email Agent Output](Outputs/email-agent-output.png)
 
 ---
 
@@ -76,7 +76,7 @@ User Prompt → MCP Host (Cursor) → MCP Integration Layer (Composio) → Exter
 > 📞 **Tested live** — received and answered a real phone call from this agent.
 
 🎬 **Demo Recording:**
-[Watch voice agent demo](outputs/voice-agent-recording.mp4)
+[Watch voice agent demo](Outputs/voice-agent-recording.mp4)
 
 ---
 
@@ -92,7 +92,7 @@ User Prompt → MCP Host (Cursor) → MCP Integration Layer (Composio) → Exter
 **Use case:** Instant travel information through a conversational AI interface
 
 📸 **Output:**
-![Railways Agent Output](outputs/railways-agent-output.png)
+![Railways Agent Output](Outputs/railways-agent-output.png)
 
 ---
 
