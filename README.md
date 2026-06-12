@@ -40,7 +40,7 @@ User Prompt → MCP Host (Cursor) → MCP Integration Layer (Composio) → Exter
 **Proof:** This agent was used to publish a real LinkedIn post autonomously
 
 📸 **Output:**
-![LinkedIn Agent Output](Outputs/Linkedin Agent/Linkedin_Post_Output.png)
+![LinkedIn Agent Output](Outputs/Linkedin-Agent/Linkedin_Post_Output.png)
 
 ---
 
