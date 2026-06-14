@@ -194,14 +194,15 @@ Fill in `config.json`:
 ## Project Structure
 
 ```
-mcp-ai-agents/
-├── outputs/
-│   ├── Linkedin Agent/ linkedin-agent-output.png
-│   ├── Email Agent/ email-agent-output.png
-│   ├── Voice Agent/ voice-agent-recording.mp4
-│   └── Railway Agent/  railways-agent-output.png
+MCP-AI-Agents/
+├── Outputs/
+│   ├── Linkedin Agent/
+│   ├── Mail Agent/
+│   ├── Railways/
+│   └── Voice Agent/
 ├── mcp_config.json
 └── README.md
+
 ```
 
 ---
