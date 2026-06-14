@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "composio": {
+      "url": "https://connect.composio.dev/YOUR_ENDPOINT",
+      "headers": {
+        "x-consumer-api-key": "YOUR_COMPOSIO_API_KEY"
+      }
+    },
+    "indian-railways": {
+      "url": "https://railways-mcp-endpoint/YOUR_ENDPOINT"
+    },
+    "ElevenLabs": {
+      "command": "C:\\Users\\YOUR_USERNAME\\path\\to\\elevenlabs-mcp.exe",
+      "args": [
+        "C:\\Users\\YOUR_USERNAME\\path\\to\\script.py"
+      ],
+      "env": {
+        "ELEVENLABS_API_KEY": "YOUR_ELEVENLABS_API_KEY"
+      }
+    },
+    "composio-linkedin": {
+      "url": "https://backend.composio.dev/YOUR_LINKEDIN_ENDPOINT",
+      "headers": {
+        "x-api-key": "YOUR_COMPOSIO_LINKEDIN_API_KEY"
+      }
+    },
+    "mcp-config-zqypvp": {
+      "url": "https://backend.composio.dev/YOUR_MAIL_ENDPOINT"
+    }
+  }
+}
