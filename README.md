@@ -40,7 +40,10 @@ User Prompt → MCP Host (Cursor) → MCP Integration Layer (Composio) → Exter
 **Proof:** This agent was used to publish a real LinkedIn post autonomously
 
 📸 **Output:**
-![LinkedIn Agent Output](Outputs/Linkedin Agent/Linkedin_Post_Output.png)
+
+![LinkedIn Agent Output](https://github.com/TulasiLasya/MCP-AI-Agents/blob/main/Outputs/Linkedin%20Agent/Cursor_Terminal.png)
+
+![LinkedIn Agent Output](https://github.com/TulasiLasya/MCP-AI-Agents/blob/main/Outputs/Linkedin%20Agent/Linkedin_Post_Output.png)
 
 ---
 
@@ -57,7 +60,10 @@ User Prompt → MCP Host (Cursor) → MCP Integration Layer (Composio) → Exter
 **Use case:** Automating professional outreach, follow-ups, internship applications
 
 📸 **Output:**
-![Email Agent Output](Outputs/email-agent-output.png)
+
+![Email Agent Output](https://github.com/TulasiLasya/MCP-AI-Agents/blob/main/Outputs/Mail%20Agent/Cursor_Terminal_Initial_Prompt.png)
+
+![Email Agent Output](https://github.com/TulasiLasya/MCP-AI-Agents/blob/main/Outputs/Mail%20Agent/Output_Mail.png)
 
 ---
 
@@ -76,7 +82,8 @@ User Prompt → MCP Host (Cursor) → MCP Integration Layer (Composio) → Exter
 > 📞 **Tested live** — received and answered a real phone call from this agent.
 
 🎬 **Demo Recording:**
-[Watch voice agent demo](Outputs/voice-agent-recording.mp4)
+
+[voice agent demo](https://github.com/TulasiLasya/MCP-AI-Agents/blob/main/Outputs/Voice%20Agent/agent%20voice%20call.mp4)
 
 ---
 
@@ -92,7 +99,9 @@ User Prompt → MCP Host (Cursor) → MCP Integration Layer (Composio) → Exter
 **Use case:** Instant travel information through a conversational AI interface
 
 📸 **Output:**
-![Railways Agent Output](Outputs/railways-agent-output.png)
+
+
+![Railways Agent Output](https://github.com/TulasiLasya/MCP-AI-Agents/blob/main/Outputs/Railways/terminal_output.png)
 
 ---
 
