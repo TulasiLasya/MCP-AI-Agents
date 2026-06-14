@@ -139,12 +139,35 @@ cp config.example.json config.json
 Fill in `config.json`:
 ```json
 {
-  "gemini_api_key": "YOUR_GEMINI_API_KEY",
-  "composio_api_key": "YOUR_COMPOSIO_API_KEY",
-  "elevenlabs_api_key": "YOUR_ELEVENLABS_API_KEY",
-  "twilio_account_sid": "YOUR_TWILIO_SID",
-  "twilio_auth_token": "YOUR_TWILIO_AUTH_TOKEN",
-  "railways_api_key": "YOUR_RAILWAYS_API_KEY"
+  "mcpServers": {
+    "composio": {
+      "url": "https://connect.composio.dev/YOUR_ENDPOINT",
+      "headers": {
+        "x-consumer-api-key": "YOUR_COMPOSIO_API_KEY"
+      }
+    },
+    "indian-railways": {
+      "url": "https://railways-mcp-endpoint/YOUR_ENDPOINT"
+    },
+    "ElevenLabs": {
+      "command": "C:\\Users\\YOUR_USERNAME\\path\\to\\elevenlabs-mcp.exe",
+      "args": [
+        "C:\\Users\\YOUR_USERNAME\\path\\to\\script.py"
+      ],
+      "env": {
+        "ELEVENLABS_API_KEY": "YOUR_ELEVENLABS_API_KEY"
+      }
+    },
+    "composio-linkedin": {
+      "url": "https://backend.composio.dev/YOUR_LINKEDIN_ENDPOINT",
+      "headers": {
+        "x-api-key": "YOUR_COMPOSIO_LINKEDIN_API_KEY"
+      }
+    },
+    "mcp-config-zqypvp": {
+      "url": "https://backend.composio.dev/YOUR_MAIL_ENDPOINT"
+    }
+  }
 }
 ```
 
@@ -173,12 +196,11 @@ Fill in `config.json`:
 ```
 mcp-ai-agents/
 ├── outputs/
-│   ├── linkedin-agent-output.png
-│   ├── email-agent-output.png
-│   ├── voice-agent-recording.mp4
-│   └── railways-agent-output.png
-├── config.example.json
-├── .gitignore
+│   ├── Linkedin Agent/ linkedin-agent-output.png
+│   ├── Email Agent/ email-agent-output.png
+│   ├── Voice Agent/ voice-agent-recording.mp4
+│   └── Railway Agent/  railways-agent-output.png
+├── mcp_config.json
 └── README.md
 ```
 
